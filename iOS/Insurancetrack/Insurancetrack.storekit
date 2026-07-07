@@ -1,0 +1,41 @@
+{
+  "identifier" : "Insurancetrack",
+  "nonRenewingSubscriptions" : [],
+  "products" : [],
+  "settings" : {
+  },
+  "subscriptionGroups" : [
+    {
+      "id" : "insurancetrack_pro_group",
+      "localizations" : [],
+      "name" : "Insurancetrack Pro",
+      "subscriptions" : [
+        {
+          "adHocOffers" : [],
+          "codeOffers" : [],
+          "displayPrice" : "2.99",
+          "familyShareable" : false,
+          "groupNumber" : 1,
+          "internalID" : "insurancetrack_pro_monthly",
+          "introductoryOffer" : null,
+          "localizations" : [
+            {
+              "description" : "Insurancetrack Pro unlocks Renewal alerts and premium-change history per policy",
+              "displayName" : "Insurancetrack Pro",
+              "locale" : "en_US"
+            }
+          ],
+          "productID" : "com.shimondeitel.insurancetrack.pro.monthly",
+          "recurringSubscriptionPeriod" : "P1M",
+          "referenceName" : "Insurancetrack Pro Monthly",
+          "subscriptionGroupID" : "insurancetrack_pro_group",
+          "type" : "RecurringSubscription"
+        }
+      ]
+    }
+  ],
+  "version" : {
+    "major" : 3,
+    "minor" : 0
+  }
+}
