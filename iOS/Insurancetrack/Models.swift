@@ -9,15 +9,7 @@ struct Policy: Identifiable, Codable, Equatable {
     var renewalDate: Date
     var notes: String
 
-    init(
-        id: UUID = UUID(),
-        createdAt: Date = Date(),
-        provider: String = "",
-        policyType: String = "",
-        premium: Double = 0,
-        renewalDate: Date = Date(),
-        notes: String = ""
-    ) {
+    init(id: UUID = UUID(), createdAt: Date = Date(), provider: String = "", policyType: String = "", premium: Double = 0, renewalDate: Date = Date(), notes: String = "") {
         self.id = id
         self.createdAt = createdAt
         self.provider = provider
